@@ -4,15 +4,15 @@ using System.IO;
 using UnrealBuildTool;
 using UnrealBuildTool.Rules;
 
-public class ThistleRuntime : ModuleRules
+public class SunflowerRuntime : ModuleRules
 {
-	public ThistleRuntime(ReadOnlyTargetRules Target) : base(Target)
+	public SunflowerRuntime(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicIncludePaths.AddRange(
 			new string[] {
-				Path.Combine(PluginDirectory,"Source/ThistleRuntime")
+				Path.Combine(PluginDirectory,"Source/SunflowerRuntime")
 			}
 		);
 
@@ -28,7 +28,6 @@ public class ThistleRuntime : ModuleRules
 			new string[]
 			{
 				"Core",
-                "AIModule",
 
 				// ... add other public dependencies that you statically link with here ...
 			}

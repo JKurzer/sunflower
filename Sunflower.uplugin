@@ -2,8 +2,8 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "Thistle",
-	"Description": "AI System",
+	"FriendlyName": "Sunflower",
+	"Description": "UI System",
 	"Category": "Other",
 	"CreatedBy": "Hedra",
 	"CreatedByURL": "",
@@ -17,7 +17,7 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "ThistleRuntime",
+			"Name": "SunflowerRuntime",
 			"Type": "Runtime",
 			"LoadingPhase": "PostEngineInit"
 		}
